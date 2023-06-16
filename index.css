@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f3a3bd;
+}
+
+code {
+    font-family: "Times New Roman", Times, serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    color: #e600ff;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 35px;
+    color: #85ff00;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #00fff7;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #8600ff;
+}
+
+
+h5 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #ff7400;
+}
+
+h6 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #000000;
+}
+
+.container {
+    flex-direction: column;
+}
+
+code {
+    font-size: 1.2em;
+
+}
+
+ul {
+    padding-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+    font-size: medium;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 30px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 130px;
+    text-align: center;
+    width: 38px;
+}
+
+.board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.status {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 15px;
+    font-size: medium;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: medium;
+}
+
+.mydiv {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight: bold;
+    animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+    0% {
+        background-color: #ec162a;
+    }
+    10% {
+        background-color: #f68022;
+    }
+    25% {
+        background-color: #eadf1e;
+    }
+    40% {
+        background-color: #4eea2b;
+    }
+    55% {
+        background-color: #2fa4f5;
+    }
+    70% {
+        background-color: #9d33ef;
+    }
+    80% {
+        background-color: #ec35c7;
+    }
+    100% {
+        background-color: #ec162a;
+    }
+}
